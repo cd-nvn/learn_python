@@ -1,0 +1,70 @@
+Boolean:
+    - Numbers (including negative numbers) are always true unless they are zero
+    - Strings are false only when empty
+    - Lists, tuples, sets, disctionary are false only when empty
+    - To check if a value is Boolean   
+        print(type(variable)==bool)
+
+`any` function: 
+    - Very useful while working with Lists
+    - Returns true of Any of the values are true
+
+`all` function:
+    - returns if All the values are true
+
+***
+COMPLEX NUMBERS 
+
+Written with j constructor
+
+Example:
+    complex = 2+3j
+    Can as well be written as 
+    num = complex(2,3)
+
+to get the real and imaginary parts, you can use:
+    num.real //for real part
+    num.imag //for imaginary part
+
+Can use the type() to check  the type
+
+***
+abs()
+    - To get the absolute value of any numbers
+
+round()
+    - To round the number 
+    - can as well mention number of digits after decimal to round to
+        Example: round(5.49, 1) will result in 5.5
+
+***
+enums
+    - reeadable names bound to a value
+    - to use enums
+        from enum import Enum 
+    
+
+    - Example:
+
+    from enum import Enum  #import the enum library
+
+    class State(Enum):  #define a class
+        INACTIVE=0  #Inactive has constant value of 0
+        ACTIVE=1  #Active has constant value of 1
+
+***
+input()
+
+    - To get user input from terminal
+    - Argument will display the text, example:
+        age=input("What is your age?")
+
+***
+control statements:
+    1. if-else-elif
+
+***
+Lists:
+    - Lists are essential python data structures
+
+//covered till 1 hour 37 minutes
